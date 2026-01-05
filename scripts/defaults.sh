@@ -76,11 +76,12 @@ defaults write com.apple.finder ShowStatusBar -bool true
 
 ################################################
 # Reset processes to have settings take effect #
+# or just logout or reboot                     #
 ################################################
 
-killall cfprefsd
-killall SystemUIServer
-killall -HUP UniversalAccess
-killall Finder
-killall Dock
-killall WindowManager
+# killall cfprefsd
+# killall SystemUIServer
+# killall -HUP UniversalAccess
+# killall Finder
+# killall Dock
+# killall WindowManager

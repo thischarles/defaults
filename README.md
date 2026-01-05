@@ -12,8 +12,10 @@ Don't forget to make scripts executable with `chmod +x` because I know I will.
 
 | Script | Description |
 | ------ | ----------- |
-| sudotouchid.sh | Enable Touch ID for sudo (requires sudo to run) |
+| sudotouchid.sh | Enable Touch ID for sudo (requires sudo) |
 | defaults.sh | macOS Settings to my liking |
+
+Tip: Experimenting with `defaults read` to get settings while changing settings when creating your own defaults.sh.
 
 ## Homebrew for me.terminal
 Mac Terminal profile file. Just default Homebrew profile with a 14 point font and a little more transparency.
