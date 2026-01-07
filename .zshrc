@@ -3,7 +3,8 @@
 # My Prompt
 # https://scriptingosx.com/2019/07/moving-to-zsh-06-customizing-the-zsh-prompt/
 # https://zsh.sourceforge.io/Doc/Release/Prompt-Expansion.html
-PROMPT="🤠 %B%F{yellow}%n@%m %1~ %# %f%b"
+PROMPT=$'%{%G🤠%} %B%F{yellow}%n@%m %1~ %# %f%b'
+RPROMPT="%K{magenta}%t%k"
 
 # LS colors and alias
 # https://geoff.greer.fm/lscolors/
