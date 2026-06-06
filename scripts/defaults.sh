@@ -74,6 +74,14 @@ defaults write com.apple.finder ShowPathbar -bool true
 # View > Show Status Bar
 defaults write com.apple.finder ShowStatusBar -bool true
 
+############
+# TextEdit #
+############
+
+# Format > Make Plain Text
+  # Set TextEdit to create new documents as plain text (.txt) instead of Rich Text Format (.rtfd)
+defaults write com.apple.TextEdit RichText -bool false
+
 ################################################
 # Reset processes to have settings take effect #
 # or just logout or reboot                     #
