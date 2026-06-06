@@ -17,8 +17,8 @@ Don't forget to make scripts executable with `chmod +x` because I know I will.
 
 Tip: Experimenting with `defaults read` to get settings while changing settings when creating your own defaults.sh.
 
-## Homebrew for me.terminal
-Mac Terminal profile file. Just default Homebrew profile with a 14 point font and a little more transparency.
+## Terminal profile.terminal
+Terminal profile file. Just default Homebrew profile with a 14 point font and a little more transparency.
 
 ## /AppleScript
 Too bad Apple effectively deprecated `sfltool` and doesn't have Property List files for some Finder settings. There are other tools for automating Finder settings, but I decided to use Apple Script.
