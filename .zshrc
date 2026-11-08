@@ -18,8 +18,5 @@ xman() {
 }
 alias man="xman"
 
-# iCloud Drive path
-export ICLOUD=$HOME/Library/Mobile\ Documents/com~apple~CloudDocs
-
 # Launch VS Code
 alias code='/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code'
