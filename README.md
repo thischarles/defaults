@@ -14,6 +14,7 @@ Don't forget to make scripts executable with `chmod +x` because I know I will.
 | ------ | ----------- |
 | sudotouchid.sh | Enable Touch ID for sudo (requires sudo) |
 | defaults.sh | macOS Settings to my liking |
+| icloudalias.sh | Creates a symlink to iCloud Drive, making it available as an alias in Finder and as ~/iCloud Drive in Terminal |
 
 💡 Tip: Experimenting with `defaults read` to get settings while changing settings when creating your own defaults.sh.
 
